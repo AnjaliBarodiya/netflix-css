@@ -1,0 +1,236 @@
+body{
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(0, 0, 0);
+
+}
+.hero{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+}
+.hero-img{
+    width:100%;
+    height:100vh;
+    margin:none;
+    
+}
+.tint{
+    background-color: rgba(0, 0, 0, 0.516);
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(12, 12, 12, 0.479) 50%, rgba(0, 0, 0, 0.9) 100%);
+}
+.content{
+    position:absolute;
+    top:0;
+    color: white;
+    width: 840px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.nav{
+    position:absolute;
+    top:0;
+    display:flex;
+    justify-content: space-between;
+    width:990px;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    align-items:center;
+    
+}
+.logo{
+    color: red;
+}
+.en-btn{
+    background-color: rgba(0, 0, 0, 0.411);
+    color:white;
+    border:1px solid rgba(119, 136, 153, 0.247);
+    padding:8px 5px;
+    border-radius:4px;
+    font-size: 14px;
+    display:flex;
+    align-items:center;
+    gap:2px;
+}
+.nav-flex{
+    display:flex;
+    gap:20px;
+}
+.signin-btn{
+    padding:6px 30px;
+    border:none;
+    border-radius:4px;
+    background-color:rgb(229,9,20);
+    color:white;
+    font-size: 14px;
+}
+.netflix-logo{
+    height: 40px;
+    top:0;
+    position:absolute;
+    display:flex;
+}
+.title{
+    top:200px;
+    font-size:46px;
+    text-align: center;
+}
+.sub-title{
+    font-size:26px;
+}
+.desc{
+    font-size:18px;
+}
+.content-flex{
+    display:flex;
+    justify-content: center;
+    gap:8px;
+}
+.content-input{
+    width:300px;
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 6px;
+    border:1px solid rgba(88, 88, 88, 0.959);
+    padding:14px;
+    color:white;
+    font-size: 20px;
+    justify-content: center;
+
+
+}
+.content-btn{
+    padding:12px 6px;
+    background-color:rgb(229,9,20); 
+    font-size:22px;
+    color:white;
+    border-radius:6px;
+    border:none;
+    display:flex;
+    align-items: center;
+    gap:2px;
+}
+.arrow-img{
+    
+     padding-top: 4px;
+}
+
+
+.container{
+    color:white;
+    display:flex;
+    width:990px;
+    margin:100px auto;
+    gap:80px;
+    align-items: center;
+}
+.left{
+    width:50%
+}
+.right{
+    width:50%;
+}
+.tv{
+    width:100%;
+    position:relative;
+}
+.video{
+    position:absolute;
+    margin-left:66px;
+    width:80%;
+    height:90%;
+    object-fit: contain;
+}
+.realtv{
+    display:block;
+    position:relative;
+}
+.heading{
+    font-weight: bold;
+    font-size: 35px;
+}
+.subheading{
+    font-size: 20px;
+}
+    
+section{
+    
+    border-bottom:6px solid rgba(58, 57, 57, 0.918);
+    
+}
+
+.girl{
+    height:400px;
+    width:400px;
+   
+}
+.rajma{
+    height:400px;
+    width:500px;
+   
+}
+.heading3{
+    font-weight: bold;
+    font-size: 40px;
+}
+.subheading3{
+    font-size: 24px;
+}
+.heading4{
+    font-weight: bold;
+    font-size: 40px;
+}
+.subheading4{
+    font-size: 24px;
+}
+.children{
+    height:500px;
+    width:600px;
+   
+
+}
+/* .end-part{ */
+
+    display:flex;
+    position:absolute;
+input{
+    width:200px;
+    height:40px;
+    align-items:center;
+}
+.heading5{
+    
+    padding:12px 12%;
+    text-align: center;
+    font-size:35px;
+    color:white;
+    font-weight: bold;
+
+}
+.FAQ{
+   background-color: black;
+   color:white;
+   padding:30px;
+    
+}
+.faqbox{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgba(63, 62, 62, 0.742);
+    padding:15px;
+    max-width: 60vw;
+    margin:34px auto;
+    cursor: pointer;
+}
+span{
+    font-size:25px;
+    padding:0 20px;
+}
